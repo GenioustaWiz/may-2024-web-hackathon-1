@@ -1,41 +1,24 @@
-# WEB HACKATHON - 1
-Welcome to the Portfolio Website Hackathon! We are excited to have you join us in creating amazing portfolio websites. Below are the guidelines to ensure a smooth and productive hackathon experience.
+Project Name: Your Name Portfolio
 
-## Introduction  
-The goal of this hackathon is to build a one page portfolio website that showcases your skills, projects, and professional experience. This is an excellent opportunity to create or enhance your personal brand and demonstrate your abilities to potential employers or clients.
+This is a basic HTML portfolio website showcasing your skills and experience in web development and Python scripting.
 
-## Project Requirements
-### Personal Information: 
-Include sections for your name, a brief bio, contact information, and links to your social media profiles (e.g., LinkedIn, GitHub).
+Features:
 
-### Portfolio: 
-Showcase your projects with descriptions, images, and links to live demos or repositories.
+About Me: Briefly introduces yourself and your passion for web development and automation.
+Portfolio: Displays your projects with screenshots, descriptions, live demo links, and repository links.
+Skills: Highlights your proficiency in various web development and scripting languages through progress bars.
+Experience (Optional): Lists your past work experiences with job titles, company names, and descriptions.
+Education: Mentions your relevant educational background.
+Getting Started:
 
-### Skills: 
-List your technical and non-technical skills.
+Replace placeholders like "Your Name", "youremail@example.com", "https://www.example.com/project1", "your-username" etc. with your actual information.
+Update project descriptions, screenshots, and any other relevant details in the portfolio section.
+Add your experience details if you want to include them.
+You can further customize the website by editing the CSS files (style.css, cards.css, about.css, skills.css) to match your preferred style.
+Dependencies:
 
-### Experience: 
-Detail your professional experience, including job titles, companies, and descriptions of your roles.
+Font Awesome icons (included via CDN link in the HTML)
+Note:
 
-### Education: 
-Include your educational background.
-
-## Submission Guidelines
-Repository Setup: Fork this repository and create a new branch for your project.
-Commit Messages: Use clear and descriptive commit messages to document your progress.
-Pull Request: Submit a pull request to the main branch once you have completed your project. Include a brief description of your website and any additional notes.
-Deadline: All submissions must be made by monday 1st July 12pm EAT
-
-## Judging Criteria
-Submissions will be judged based on the following criteria:
-
-Design: Visual appeal, creativity, and user interface design.
-Functionality: Responsiveness, performance, and interactivity.
-Content: Clarity, completeness, and presentation of information.
-Originality: Unique features, innovative approaches, and personal touches.
-Code Quality: Cleanliness, organization, and use of best practices.
-
-Happy hacking and we look forward to seeing your amazing portfolio websites!
-
-
-
+A JavaScript file (script.js) is included in the HTML but currently empty. You can add any custom functionalities using JavaScript in this file.
+This README provides a basic understanding of your portfolio website's structure and functionality. Feel free to modify and enhance it further based on your needs.
