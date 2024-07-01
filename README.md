@@ -1,7 +1,7 @@
 # WEB HACKATHON - 1
 Welcome to the Portfolio Website Hackathon! We are excited to have you join us in creating amazing portfolio websites. Below are the guidelines to ensure a smooth and productive hackathon experience.
 
-## Introduction
+## Introduction  
 The goal of this hackathon is to build a one page portfolio website that showcases your skills, projects, and professional experience. This is an excellent opportunity to create or enhance your personal brand and demonstrate your abilities to potential employers or clients.
 
 ## Project Requirements
