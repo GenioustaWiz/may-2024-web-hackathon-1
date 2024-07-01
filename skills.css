@@ -10,7 +10,7 @@
   
   .skills-list li {
     margin-bottom: 15px;
-    width: calc(33% - 10px);  /* Adjust width as needed for columns */
+    width: calc(33% - 10px);  /* Adjusting width as needed for columns */
     text-align: center;
   }
   
@@ -33,7 +33,7 @@
     border-radius: 5px;
   }
   
-  /* Adjust progress bar color based on data-progress value */
+  /* Adjusting progress bar color based on data-progress value */
   .progress[data-progress]:after {
     content: attr(data-progress) "%";
     color: #fff;
@@ -46,7 +46,7 @@
   
   @media only screen and (max-width: 768px) {
     .skills-list li {
-      width: 48%; /* Adjust width for two columns on smaller screens */
+      width: 48%; /* Adjusting width for two columns on smaller screens */
     }
   }
   
