@@ -1,0 +1,40 @@
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    margin-bottom: 15px;
+    line-height: 1.5; /* Adjusting line height for better readability */
+  }
+  
+  .contact li {
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .contact li a {
+    text-decoration: none;
+    color: #333;
+  }
+  .contact li:hover a {
+    background-color: #c1c1c1;
+    padding: 4px;
+    border-radius: 10px;
+  }
+  .contact li a i {
+    margin-right: 5px;
+    font-size: 1.2em;  /* Adjusting icon size as needed */
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      align-items: flex-start;  /* Text aligns to left on smaller screens */
+      text-align: left;
+    }
+  }
