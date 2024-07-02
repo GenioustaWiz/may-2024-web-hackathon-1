@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charlton Kaniaru - Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cards.css">
     <link rel="stylesheet" href="about.css">
@@ -13,7 +13,10 @@
 </head>
 <body>
     <header>
-        <h1>Charlton Kaniaru </h1>
+        <div class="nav-top">
+            <p class="menu-button" id="toggle-menu" onclick="toggleMenu()"><i class="fa fa-bars" aria-hidden="true"></i></p>
+            <h1>Charlton Kaniaru </h1>
+        </div>
         <nav>
             <a href="#about">About</a>
             <a href="#portfolio">Portfolio</a>
@@ -57,7 +60,7 @@
             <div class="cards-container">
                 <div class="card">
                     <h3>Blum_Auto_tap</h3>
-                    <img src="images/blum_ui.jpg" alt="Project 1 screenshot">
+                    <img src="images/blum_ui.png" alt="Project 1 screenshot">
                     <p>The projects makes use of Python, and several module 
                         to automate the tapping of the screen and maximize 
                         earning in a crypto game.</p>
@@ -66,7 +69,7 @@
                 </div>
                 <div class="card">
                     <h3>Nyumba Kumi</h3>
-                    <img src="images/nyumba_ui.jpg" alt="Project 2 screenshot">
+                    <img src="images/nyumba_ui.png" alt="Project 2 screenshot">
                     <p>The project aims to creat a on online hub where 
                         people from same area or community can register, and plan events.</p>
                     <a href="https://genioustawiz.github.io/nyumba_kumi_html/index.html">Live Demo</a>
@@ -74,13 +77,13 @@
                 </div>
                 <div class="card">
                     <h3>N/A</h3>
-                    <img src="images/project3.jpg" alt="Project 3 screenshot">
+                    <img src="images/app.jpg" alt="Project 3 screenshot">
                     <p>information yet to be updated.</p>
                     <a href="https://www.example.com/project3">Live Demo</a>
                     <a href="https://github.com/my-username/project3">Repository</a>
                 </div>
                 <div class="card">  <h3>N/A</h3>
-                    <img src="images/project4.jpg" alt="Project 4 screenshot">
+                    <img src="images/python.jpg" alt="Project 4 screenshot">
                     <p>Information yet to be updated.</p>
                     <a href="https://www.example.com/project4">Live Demo</a>
                     <a href="https://github.com/my-username/project4">Repository</a>

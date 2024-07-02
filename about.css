@@ -19,10 +19,11 @@
   
   .contact li a {
     text-decoration: none;
-    color: #333;
+    color: #bdbdf3ad;
   }
   .contact li:hover a {
     background-color: #c1c1c1;
+    color: #333;
     padding: 4px;
     border-radius: 10px;
   }
